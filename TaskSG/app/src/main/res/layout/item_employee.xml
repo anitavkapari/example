@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/dad"
+        android:id="@+id/imgEmployee"
+        />
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anita"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/imgEmployee"
+        />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saswad"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/imgEmployee"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAddress"
+        android:text="9763075433"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/imgEmployee"
+        />
+
+</RelativeLayout>
